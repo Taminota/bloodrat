@@ -219,6 +219,7 @@ $('div.menu').append('&nbsp;&nbsp;<span><a id="loadarchiv" href="#">Archiv</a></
 $('div.menu').append('&nbsp;&nbsp;<span><input type="checkbox" id="nightswitch">&nbsp;<label for="nightswitch">Noční mód</label></span>');
 
 
+
 $(document).on("click", ".smazatzaznam", function (e) {
 	
 	if (confirm("Určitě odstranit z archivu?")) {
