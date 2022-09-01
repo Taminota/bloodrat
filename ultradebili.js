@@ -1,5 +1,10 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
-var $debilove = localStorage.getItem("seznamDebilu");
+
+var $debilove;
+window.addEventListener("message", function (msg) {
+  $debilove = msg;
+  }
+});
 
 var podbarvit = `[
 	{"nick":"cestujicivnoci", "background_color":"beige"},
