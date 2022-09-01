@@ -3,7 +3,7 @@
 // @namespace      okoun.cz
 // @description    Okoun workaround
 // @version       0.0.1
-// @include       https://*.okoun.cz/boards/*
+// @include       https://*.okoun.cz/*
 // @include       https://*.okoun.cz/msgbox.jsp*
 // @include       https://*.okoun.cz/msgbox.do*
 // @include       https://*.okoun.cz/markMessages.do
