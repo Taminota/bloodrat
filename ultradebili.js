@@ -1,24 +1,5 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
-var $debilove = "ritna.diera";
-console.log($debilove);
-
-$.get('/', function (data) {
-		//alert (data);
-	    var debilove = $(data).find('debilove').html();
-	    localStorage.setItem("debilove", debilove);
-};
-
-var debilove = localStorage.getItem("debilove") + "";
-console.log(debilove);
-      
-
-window.addEventListener("load", function () {
-    window.setTimeout(function() {
-        alert($debilove);
-    }, 1000);
-}, false);
-
-
+var $debilove = "crazy_ass_fuck,mageo.cz,georgia,GGM,Protiva,gumatex,tigr_papirosowwy,FAVORIT11,Adelbert_Steiner,pKV,defekt_X,noNexistent,dr_Justice,emzak,Lonbo,kikot,Smajdlaf,J_H,Respo,Watchover,HAWKING,Overwatch,En.Tity";
 
 var podbarvit = `[
 	{"nick":"cestujicivnoci", "background_color":"beige"},
