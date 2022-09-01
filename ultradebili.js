@@ -4,7 +4,7 @@ var $debilove = "";
 
 window.addEventListener("load", function () {
     window.setTimeout(function() {
-        console.log(debilove);
+        alert($debilove);
     }, 1000);
 }, false);
 
