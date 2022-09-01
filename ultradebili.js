@@ -1,5 +1,5 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
-var $debilove = "nedebilove";
+var $debilove = "ritna.diera";
 console.log($debilove);
 
 $.get('/', function (data) {
