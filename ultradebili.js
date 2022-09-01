@@ -1,5 +1,5 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
-var $debilove = "Bloodrat";
+var $debilove = "Bloodra";
 alert($debilove);
 
 $.get('/boards/ryba_bez_parazitu', function (data) {
