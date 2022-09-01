@@ -1,6 +1,14 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
-var $debilove = document.body.appendChild("seznamDebilu");
-console.log($debilove);
+
+var $debilove = "";
+
+window.addEventListener("load", function () {
+    window.setTimeout(function() {
+        console.log(debilove);
+    }, 1000);
+}, false);
+
+
 
 var podbarvit = `[
 	{"nick":"cestujicivnoci", "background_color":"beige"},
