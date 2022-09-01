@@ -5,6 +5,7 @@ alert($debilove);
 $.get('/boards/ryba_bez_parazitu', function (data) {
 		//alert (data);
 	    var $debilove = $(data).find('div.ydata').html();
+	alert($debilove);
 };
 
 alert($debilove);
