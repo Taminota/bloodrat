@@ -1,6 +1,14 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
 var $debilove = "Bloodrat";
 alert($debilove);
+
+$.get('/boards/ryba_bez_parazitu', function (data) {
+		//alert (data);
+	    var $debilove = $(data).find('div.ydata').html();
+};
+
+alert($debilove);
+
 var podbarvit = `[
 	{"nick":"cestujicivnoci", "background_color":"beige"},
 	{"nick":"Losssssss", "background_color":"#c3f9ff"}
