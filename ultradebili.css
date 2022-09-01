@@ -1,0 +1,333 @@
+br.clr-r {
+    line-height: 3px !important; 
+}
+
+
+.index .news .yui-g.first .yui-u {
+    background-color: #F0F8FF !important; 
+    border-radius: 5px;
+}
+
+.boardlist h3 {
+	display: none !important;
+}	
+
+.yui-u:not(.yui-g .yui-u) {
+    background-color: #F0F8FF !important; 
+    font-size: 110%;
+    border-radius: 5px;
+    width: 32% !important;
+}
+
+
+.yui-skin-sam .yui-button {
+    background: none !important;
+}
+
+.yui-skin-sam .yui-button:hover {
+	    background: #F0F8FF !important;
+}
+
+
+
+/*
+.yui-gc .first {
+    width: 77% !important;
+}  
+
+.yui-gc .yui-u  {
+    width: 49% !important;
+}  
+
+*/
+
+
+.yui-g  .yui-u {
+/*    width: 52% !important; */
+}
+
+
+
+
+.userfilter {
+	color: #F0F8FF !important;
+}
+
+.meta:hover .userfilter {
+	color: #808080 !important;
+}
+
+
+.hilited {
+	border: 2px solid #B85F00 !important;
+}
+
+
+.pager-top {
+	display: none !important;
+    margin-top: 5px !important;
+}
+
+.pager ul {
+    margin-top: 8px !important;
+}
+
+.pager ul li {
+    background-color: white !important;
+    background-image: none !important;
+	padding: 4px 8px !important;
+	display: inline-block !important;
+	min-width: 20px !important;
+	text-align: center;
+
+}
+
+.pager ul li a {
+    text-decoration: none !important;
+}
+
+.pager ul li.curr {
+    background: #e4e8fb !important;
+    border: 1px solid #808080  !important;
+    
+}
+
+div.ad, div#adwrapper-bs.ad.box, div#bb-leader, div#bb-bg {
+	position: absolute !important;
+	z-index: -11 !important;
+	visibility: hidden !important;
+}
+
+div#body {
+	width: 100% !important;
+    background-color: #e4e8fb;
+}
+
+div#body.nightmode {
+    background-color: black !important;
+}
+
+
+body {
+	background-size: 200000px 2000px !important;
+    background-color: #e4e8fb !important;
+}
+
+body.nightmode {
+    background-color: black !important;
+}
+
+
+
+.head {
+    border-bottom: none !important;
+}
+
+.footer {
+    border-top:  none !important;
+}
+
+a.expcol span.ico {
+	display: none;
+}
+
+#rozbal2 {
+	cursor:pointer;
+	opacity: 0.5;
+    background-image: url("https://www.okoun.cz/css/yui-2.6.0/assets/skins/sam/sprite.png");
+    background-repeat: no-repeat;
+    background-position: 0 -349px;
+    
+    padding-left: 20px;
+    margin-top:20px;
+    margin-left:15px
+}
+
+#rozbal2:hover {
+	opacity: 1;
+}
+
+
+.yui-u:not(.first) {
+	border-radius: 5px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	padding: 4px;
+}
+
+
+#rozbal3 {
+	display: none;
+	background: aquamarine;
+}
+
+.main .ctx {
+	border-radius: 5px !important;
+   padding: 10px;
+   background: aliceblue;
+   width: 21% !important;
+}
+
+.room .item.new {
+    border: 1px solid #80AAFF !important;
+}
+
+.welcome {
+	display: none;
+	/*
+    height: 2px !important;
+    overflow-y: hidden;
+    */
+}
+.room .main {/*
+    padding: 10px;
+    margin: 10px;
+    */
+}
+
+
+.main .main {
+	border-radius: 5px !important;
+    background-color: aliceblue;
+    width: 75% !important;
+    padding: 10px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.actions, .actions a, .oblibit {
+ /*   color: #e4e8fb !important;   */
+    background-image: none !important;
+    opacity: 0.6;
+    transition: opacity .3s;
+}
+
+.item:hover .actions {
+    opacity: 1;
+    color: #aaaaaa !important;
+}
+
+.item:hover .actions a, .oblibit{
+    opacity: 1;
+    color: #aaaaaa !important;
+}
+
+.item:hover .actions a:hover{
+    color: #888888 !important;
+}
+
+.item .actions {
+    /* border-top: 1px dotted pink !important; */
+    border-top: none !important;
+}
+
+
+#srchinput {
+	border: 1px solid #c0c0c0;
+    padding: 4px;
+}
+    
+ 
+.hiddenart .user {
+    font-size: 11px !important;
+}
+
+.hiddenart a, .hiddenart .ico, .hiddenart .content, .hiddenart .actions, .hiddenart .descr, .hiddenart .permalink {
+    display: none;
+}
+
+.hiddenart {
+    padding-bottom: 0 !important;
+    padding-top: 5px !important;
+    border-bottom: 1px solid #CCCCCC !important;
+}
+
+.hiddenart span.user {
+    color: #c0c0c0;
+    cursor: pointer;
+}
+
+#novydiv  {
+	font-size: 90%;
+	overflow: hidden;
+}
+
+#novydiv .item {
+	margin-bottom: 0;
+	border-bottom: none;
+}
+
+.hdn  {
+	display: none;
+}
+
+
+#xtime  {
+	float: right;
+	font-size: 80%;
+}
+
+#bodytype  {
+	float: left;
+}
+
+#bodytype input {
+	margin-right: 5px;
+}
+
+label  {
+	cursor: pointer;
+}
+
+#adwrapper-lb  {
+    display: none !important;    
+}
+
+div.info {
+	display: none !important;    
+}
+
+.oblib2 {
+	padding-left: 10px !important;    
+}
+
+.oblib_link {
+	background-color: white;    
+}
+
+.mybookmark  {
+    background-image: url("../img/star-states.png");
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.mybookmark.selected{
+	background-position: 0px -28px;
+}
+
+
+.notfound {
+	display: none;
+}
+
+
+.oblibit {
+	cursor: pointer;
+	font-weight: bold;
+	color: #9CA3B3;
+}
+
+.oblibit:hover {
+	color: #B85F00;
+}
+
+.smazatzaznam  {
+	cursor: pointer;
+}
+
+.smazatzaznam:hover {
+	text-decoration: underline;
+}
+
+input[type='checkbox']  {
+   accent-color: #F0F8FF;
+}
+
