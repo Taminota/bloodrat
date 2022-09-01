@@ -1,6 +1,6 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
-
-var $debilove = unsafeWindow.gmScripts_GlobalVar;
+var $debilove = "";
+$debilove = unsafeWindow.gmScripts_GlobalVar;
 window.addEventListener ("DOMContentLoaded", function() {
     console.log ("In GM script, local global, after ready: ", unsafeWindow.targetPages_GlobalVar);
 }, false);
