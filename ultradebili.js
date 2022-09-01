@@ -1,10 +1,9 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
 
 var $debilove;
-window.addEventListener("message", function (msg) {
-  $debilove = msg;
-  }
-});
+window.addEventListener ("DOMContentLoaded", function() {
+    console.log ("In GM script, local global, after ready: ", unsafeWindow.targetPages_GlobalVar);
+}, false);
 
 var podbarvit = `[
 	{"nick":"cestujicivnoci", "background_color":"beige"},
