@@ -1,7 +1,7 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
 var debilove = "nedebilove";
-
-$.get('/*', function (data) {
+console.log(debilove);
+$.get('/', function (data) {
 		//alert (data);
 	    var debilove = $(data).find('debilove').html();
 	    localStorage.setItem("debilove", debilove);
