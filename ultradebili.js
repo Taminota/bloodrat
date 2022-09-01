@@ -1,5 +1,6 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
-var $debilove = "";
+var $debilove = "mageo.cz";
+var $debilove = sendDebili();
 
 var podbarvit = `[
 	{"nick":"cestujicivnoci", "background_color":"beige"},
