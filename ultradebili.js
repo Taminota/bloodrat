@@ -1,6 +1,5 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
 
-
 var podbarvit = `[
 	{"nick":"cestujicivnoci", "background_color":"beige"},
 	{"nick":"Losssssss", "background_color":"#c3f9ff"}
