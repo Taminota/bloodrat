@@ -27,10 +27,10 @@ if (ultradebilove_cas) {
 }
 
 if (b_ud_stahnout) {
-	$.get('/boards/ryba_bez_parazitu', function (data) {
+	$.get('/boards/ryba_bez_parazitu', function (xdata, ydata) {
 		//alert (data);
-	    var $ultradebilove = $(data).find('div.xdata').html();
-		var $debilove = $(data).find('div.ydata').html();
+	    var $ultradebilove = $(xdata).find('div.xdata').html();
+		var $debilove = $(ydata).find('div.ydata').html();
 	    
 	    localStorage.setItem("ultradebilove", $ultradebilove);
 		localStorage.setItem("debilove", $debilove);
