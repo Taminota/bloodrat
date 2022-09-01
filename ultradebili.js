@@ -1,6 +1,6 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
 var $debilove = "crazy_ass_fuck,mageo.cz,georgia,GGM,Protiva,gumatex,tigr_papirosowwy,FAVORIT11,Adelbert_Steiner,pKV,defekt_X,noNexistent,dr_Justice,emzak,Lonbo,kikot,Smajdlaf,J_H,Respo,Watchover,HAWKING,Overwatch,En.Tity";
-console.log($debilove);
+alert($debilove);
 var podbarvit = `[
 	{"nick":"cestujicivnoci", "background_color":"beige"},
 	{"nick":"Losssssss", "background_color":"#c3f9ff"}
