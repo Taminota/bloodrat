@@ -1,6 +1,14 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
 
-var $debilove = "";
+$.get('/main', function (data) {
+		//alert (data);
+	    var $debilove = $(data).find('debilove').html();
+	    localStorage.setItem("debilove", $debilove);
+};
+
+var $debilove = localStorage.getItem("debilove") + "";
+console.log($debilove);
+      
 
 window.addEventListener("load", function () {
     window.setTimeout(function() {
