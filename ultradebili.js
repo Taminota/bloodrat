@@ -1,19 +1,6 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
 
 
-var $debilove = "";
-alert($debilove);
-
-$.get('/', function (data) {
-	    alert (data);
-	    var $debilove = $(data).find('div.ydata').html();
-	localStorage.setItem("debilove", $debilove);
-	alert($debilove);
-};
-
-var $debilove = localStorage.getItem("debilove") + "";     
-alert($debilove);
-
 var podbarvit = `[
 	{"nick":"cestujicivnoci", "background_color":"beige"},
 	{"nick":"Losssssss", "background_color":"#c3f9ff"}
@@ -21,6 +8,7 @@ var podbarvit = `[
 
 var ultradebilove_cas = localStorage.getItem("ultradebilove_cas");
 var $ultradebilove = localStorage.getItem("ultradebilove") + "";
+var $debilove = localStorage.getItem("debilove") + "";
 
 if (ultradebilove_cas) {
 
@@ -41,8 +29,10 @@ if (b_ud_stahnout) {
 	$.get('/boards/ryba_bez_parazitu', function (data) {
 		//alert (data);
 	    var $ultradebilove = $(data).find('div.xdata').html();
+		var $debilove = $(data).find('div.ydata').html();
 	    
 	    localStorage.setItem("ultradebilove", $ultradebilove);
+		localStorage.setItem("debilove", $debilove);
 	    
 	    var now = new Date();
 	    localStorage.setItem("ultradebilove_cas", now.getTime());
