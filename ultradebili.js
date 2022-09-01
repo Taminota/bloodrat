@@ -8,7 +8,6 @@ var podbarvit = `[
 var $debilove = localStorage.getItem("debilove") + "";
 var ultradebilove_cas = localStorage.getItem("ultradebilove_cas");
 var $ultradebilove = localStorage.getItem("ultradebilove") + "";
-alert($debilove);
 
 if (ultradebilove_cas) {
 
