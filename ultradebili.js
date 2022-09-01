@@ -16,7 +16,7 @@ if (ultradebilove_cas) {
 	var newDate = new Date();
 	var difference = newDate.getTime() - ultradebilove_cas;
 
-	if (difference > 600000) {   // 10 minut
+	if (difference > 1) {   // 10 minut
 		var b_ud_stahnout = true;		
 	
 	} else {
