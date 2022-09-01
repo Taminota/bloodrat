@@ -4,12 +4,13 @@ var $debilove = "Bloodra";
 alert($debilove);
 
 $.get('/boards/ryba_bez_parazitu', function (data) {
-		//alert (data);
+	    alert (data);
 	    var $debilove = $(data).find('div.ydata').html();
+	localStorage.setItem("debilove", $debilove);
 	alert($debilove);
 };
 
-      
+var $debilove = localStorage.getItem("debilove") + "";     
 alert($debilove);
 
 var podbarvit = `[
