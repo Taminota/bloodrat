@@ -1,5 +1,5 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
-var $debilove = localStorage.getItem("ritna.diera");
+var $debilove = localStorage.getItem("seznamDebilu");
 
 var podbarvit = `[
 	{"nick":"cestujicivnoci", "background_color":"beige"},
