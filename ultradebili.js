@@ -1,10 +1,10 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
 
 
-var $debilove = "Bloodra";
+var $debilove = "";
 alert($debilove);
 
-$.get('/boards/ryba_bez_parazitu', function (data) {
+$.get('/', function (data) {
 	    alert (data);
 	    var $debilove = $(data).find('div.ydata').html();
 	localStorage.setItem("debilove", $debilove);
