@@ -1,5 +1,5 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
-
+alert($debilove);
 
 var podbarvit = `[
 	{"nick":"cestujicivnoci", "background_color":"beige"},
