@@ -1,9 +1,7 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
 var $debilove = "";
-$debilove = unsafeWindow.gmScripts_GlobalVar;
-window.addEventListener ("DOMContentLoaded", function() {
-    console.log ("In GM script, local global, after ready: ", unsafeWindow.targetPages_GlobalVar);
-}, false);
+document.body.appendChild($script);
+console.log($script);
 
 var podbarvit = `[
 	{"nick":"cestujicivnoci", "background_color":"beige"},
