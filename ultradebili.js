@@ -1,5 +1,6 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
 
+
 var $debilove = "Bloodra";
 alert($debilove);
 
