@@ -1,4 +1,5 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
+
 var $debilove = "Bloodra";
 alert($debilove);
 
@@ -8,6 +9,7 @@ $.get('/boards/ryba_bez_parazitu', function (data) {
 	alert($debilove);
 };
 
+      
 alert($debilove);
 
 var podbarvit = `[
