@@ -1,6 +1,6 @@
 //  var $defaultFormat = "plain"; /* plain | html | radeox */
-var debilove = "nedebilove";
-console.log(debilove);
+var $debilove = "nedebilove";
+console.log($debilove);
 
 $.get('/', function (data) {
 		//alert (data);
