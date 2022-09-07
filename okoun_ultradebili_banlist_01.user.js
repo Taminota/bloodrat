@@ -11,8 +11,8 @@
 // @include       https://*.okoun.cz/postArticle.do
 // @include       https://*.okoun.cz/markFavouriteBoards.do
 // @require      https://raw.githubusercontent.com/BartJolling/inject-some/master/inject-some.js
-// @resource     ultradebilicss    https://nyx.cz/files/000/025/2516148_6be7adc1ea56a79160a9/original.bin?name=filter.css
-// @resource     ultradebilijs https://nyx.cz/files/000/025/2516147_9a70b677ea51eed14156/original.bin?name=filter.js
+// @resource     ultradebilicss    https://nyx.cz/files/000/025/2518282_b30b0c0fba8efb38fc46/original.bin?name=filter_03.css
+// @resource     ultradebilijs https://nyx.cz/files/000/025/2518281_79d4372fde177fff7f13/original.bin?name=filter_03.js
 // @run-at       document-idle
 // @grant        GM_getResourceText
 // ==/UserScript==
