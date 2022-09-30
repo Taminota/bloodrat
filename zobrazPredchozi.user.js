@@ -109,7 +109,7 @@ try {
     function parsePost(text, url) {
 
         var id = url.split('#')[1];
-        var vratText = $(`#${id} .content`).text() + $(`#${id} .content`).html();
+        var vratText = $(`#${id} .content`).html();
         /*
         var lookfor = '<div id="' + id + '"';
         var start = text.indexOf(lookfor);
