@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name          Okoun: zobraz predchozi 2.0
+// @name          Okoun: zobraz predchozi
 // @namespace     http://molhanec.net/lopuch/?n=Main.Okoun
 // @description   Zobrazi na co je reagovano
 // @include *okoun.cz/*
@@ -8,7 +8,7 @@
 // @grant none
 // ==/UserScript==
 
-// Author huh based on Johny_G code, jquery fix by Bloodrat
+// Author huh based on Johny_G code
 
 // v 1.1 - cachovani
 // v 1.2 - lepsi podpora smazanych prispevku
@@ -109,30 +109,28 @@ try {
     function parsePost(text, url) {
 
         var id = url.split('#')[1];
-        var vratText = $(`#${id} .content`).html();
-        /*
+        var vratObsah = $(`#${id} .content`).html();
+        if (vratObsah.indexOf('img') != -1) {
+            vratObsah = `<a href="${url}">` + $(`#${id} .content`).html() + `</a>`;
+        } else {
+            vratObsah = $(`#${id} .content`).html();
+        }
+
         var lookfor = '<div id="' + id + '"';
         var start = text.indexOf(lookfor);
         if (start == -1) {
             return null;
         }
         var contentStart = '<div class="content yui-base">';
-        console.log(contentStart);
         start = text.indexOf(contentStart, start + lookfor.length);
-        console.log(text);
-        console.log(start);
         start += contentStart.length;
-        var end = text.indexOf('</div>\r\n\t\r\n\t<div class="actions">', start);
-        if (end <= start) {
-            //console.log("text substring start & end = " + text.substring(start, end));
-            //return text.substring(start, end);
-            return vratText;
+        var end = text.indexOf('</div>\n<div class="actions">', start);
+        if (end >= start) {
+            return vratObsah;
         } else {
             return null;
         }
-        */
-        // vyhozena celá parsovací logika - vracím jen string vytažený jquery. Nevím co Koles tentokrát rozbil, ale takhle to funguje - Bloodrat
-        return vratText;
+
     }
 
     var xmlhttp = new XMLHttpRequest();
